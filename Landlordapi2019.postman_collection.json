@@ -1,0 +1,569 @@
+{
+	"info": {
+		"_postman_id": "a548a60c-27ab-42a9-96ed-bfd59528dc59",
+		"name": "Landlordapi2019",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Install post man",
+			"item": []
+		},
+		{
+			"name": "Get Lanlord",
+			"item": [
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/IxgExY6V\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/IxgExY6V",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"IxgExY6V"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/hRffNzDK\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/hRffNzDK",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"hRffNzDK"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/Y4IZ7T0a\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/Y4IZ7T0a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"Y4IZ7T0a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/TC2Lta33\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/TC2Lta33",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"TC2Lta33"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostLandlord",
+			"item": [
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Justin\",\n  \"lastName\": \"Timber\",\n  \"trusted\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Oster\",\r\n  \"lastName\": \"Sata\",\r\n  \"trusted\": false\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Safi\",\r\n  \"lastName\": \"Raihan\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Put-Update",
+			"item": [
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Oster\",\r\n  \"lastName\": \"Matha\",\r\n  \"trusted\": false\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/sppuJikJ",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"sppuJikJ"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/tioFGTlr",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Joy\",\r\n  \"lastName\": \"saf\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/zoGiWknE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"abcd\",\r\n  \"lastName\": \"efgh\",\r\n  \"trusted\": false\r\n}\r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords\n",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Justinnnn\",\n  \"lastName\": \"Timberrrr\",\n  \"trusted\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/KZZOvxCT",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Justinnnn\",\n  \"lastName\": \"Timberrrr\",\n  \"trusted\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/6JAL22jO\n",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Justin\",\n  \"lastName\": \"Timber\",\n  \"trusted\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/6JAL22jO",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"6JAL22jO"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Delete - Delete",
+			"item": [
+				{
+					"name": "http://localhost:8080/landlords/sppuJikJ\n",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Oster\",\r\n  \"lastName\": \"Matha\",\r\n  \"trusted\": false\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/sppuJikJ",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"sppuJikJ"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/landlords/6JAL22jO\n",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Justin\",\n  \"lastName\": \"Timber\",\n  \"trusted\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/landlords/6JAL22jO",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"landlords",
+								"6JAL22jO"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
